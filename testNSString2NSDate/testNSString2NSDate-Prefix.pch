@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'testNSString2NSDate' target in the 'testNSString2NSDate' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
