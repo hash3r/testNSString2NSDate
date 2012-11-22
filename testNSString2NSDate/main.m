@@ -10,14 +10,12 @@
 
 int main(int argc, const char * argv[])
 {
-
-	NSString * date = @"201109"; // исходная строка
+	NSString * date = @"2011-09"; // исходная строка
 	NSDateFormatter * date_formatter = [[[NSDateFormatter alloc] init] autorelease];
-	[date_formatter setDateFormat: @"yyyyMM"]; // описали формат ISO-8601
+	[date_formatter setDateFormat: @"yyyy-MM"]; // описали формат ISO-8601
 	NSDate * result = [date_formatter dateFromString: date]; // конвертирование
 	NSLog (@"%@", [result description]); // так можно выводить NSDate в лог
 	
-
     return 0;
 }
 

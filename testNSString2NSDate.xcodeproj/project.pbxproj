@@ -31,6 +31,7 @@
 		0493AEEA165ED45B00A55911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0493AEED165ED45B00A55911 /* testNSString2NSDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testNSString2NSDate-Prefix.pch"; sourceTree = "<group>"; };
 		0493AEEE165ED45B00A55911 /* testNSString2NSDate.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = testNSString2NSDate.1; sourceTree = "<group>"; };
+		0493AEF5165EDA0C00A55911 /* test.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = test.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				0493AEEA165ED45B00A55911 /* main.m */,
+				0493AEF5165EDA0C00A55911 /* test.xib */,
 				0493AEEE165ED45B00A55911 /* testNSString2NSDate.1 */,
 				0493AEEC165ED45B00A55911 /* Supporting Files */,
 			);
